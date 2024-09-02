@@ -5,3 +5,4 @@
 local map = vim.keymap.set
 
 map({ "i", "v" }, "jk", "<esc>", { desc = "Enter Normal Mode" })
+map({ "i", "v", "n" }, "<C-a>", "ggVG", { desc = "Select All Text" })
