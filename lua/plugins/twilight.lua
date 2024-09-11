@@ -11,7 +11,7 @@ return {
       "<leader>t",
       -- "<cmd>Twilight<cr>",
       mode = "n",
-      desc = "twilight",
+      desc = "Twilight",
       noremap = true,
     },
     {
