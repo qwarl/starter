@@ -3,6 +3,13 @@ return {
   otps = {},
   keys = {
     {
+      "<leader>z",
+      mode = "n",
+      desc = "Zen",
+      noremap = true,
+    },
+
+    {
       "<leader>zm",
       "<cmd>ZenMode<cr>",
       mode = "n",
