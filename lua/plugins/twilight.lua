@@ -1,9 +1,8 @@
-local toggle_twilight = false
 return {
   "folke/twilight.nvim",
   opts = {
     -- your configuration comes here
-    -- or leave it empty to use the default settings
+    -- or leave it empty to use the default options
     -- refer to the configuration section below
   },
   keys = {
