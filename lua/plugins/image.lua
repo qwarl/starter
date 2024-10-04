@@ -1,6 +1,3 @@
--- package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?/init.lua"
--- package.path = package.path .. ";" .. vim.fn.expand("$HOME") .. "/.luarocks/share/lua/5.1/?.lua"
-
 return {
   {
     "vhyrro/luarocks.nvim",
@@ -14,7 +11,7 @@ return {
     "3rd/image.nvim",
     config = function()
       require("image").setup({
-        backend = "kitty",
+        backend = "ueberzug", -- support many terminal (backend: ueberzugpp) or "kitty" for better performance
         integrations = {
           markdown = {
             enabled = true,
