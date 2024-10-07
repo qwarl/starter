@@ -10,3 +10,10 @@ map("t", "jk", "<c-\\><c-n>", { desc = "Enter Normal Mode" })
 
 -- open tree explorer by oil
 map("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+
+-- local map = LazyVim.safe_keymap_set
+
+map("n", "<C-l>", "<Cmd>NvimTmuxNavigateRight<CR>")
+map("n", "<C-h>", "<Cmd>NvimTmuxNavigateLeft<CR>")
+map("n", "<C-k>", "<Cmd>NvimTmuxNavigateUp<CR>")
+map("n", "<C-j>", "<Cmd>NvimTmuxNavigateDown<CR>")
